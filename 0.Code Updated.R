@@ -49,7 +49,7 @@ demographics2022 <- tidycensus::get_acs(geography = "us",
                                                       'DP05_0073PE',
                                                       'DP05_0084PE'
                                         ),
-                                        key = '04f4a8ba8705e528b78e0cf1d6a9b3c1f8f042fa',
+                                        key =  #INSERT KEY HERE ,
                                         year = 2022,
                                         output = "wide")
 
@@ -74,7 +74,7 @@ metro_demographics2022 <- tidycensus::get_acs(geography = "metropolitan statisti
                                                             'DP05_0085PE',
                                                             'DP05_0073PE'
                                               ),
-                                              key = '04f4a8ba8705e528b78e0cf1d6a9b3c1f8f042fa',
+                                              key =  #INSERT KEY HERE,
                                               year = 2022,
                                               output = "wide")
 
